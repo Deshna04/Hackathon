@@ -1,0 +1,56 @@
+navbar {
+  padding: 0.8rem;
+}
+.navbar li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.main-div {
+  background-color: #f1f3f8;
+  margin-top: 1%;
+}
+
+.pry-div {
+  background-color: #d6e0f0;
+}
+
+h1 {
+  font-weight: lighter;
+  color: #191e20;
+  font-family: impact;
+}
+
+.card-one {
+  background-color: #d6e0f0;
+}
+
+.card-two {
+  background-color: #d6e0f0;
+}
+
+.card-three {
+  background-color: #d6e0f0;
+}
+
+.card-two img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-two p {
+  padding-top: 10px;
+}
+
+.card-three img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-three p {
+  padding-top: 10px;
+}
+

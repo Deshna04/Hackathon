@@ -1,0 +1,23 @@
+body {
+    /* background-image: url("image/c1.jpg"); */
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    background-size: 120vh;
+
+  }
+  /* h1 {
+      color:white; 
+  } */
+
+  h1{
+    font-family: "  Brush Script MT";
+  }
+
+  h5{
+    font-family: " Brush Script MT", Times, serif;
+  }
+
+  p{
+    font-family: "  Brush Script MT", Times, serif;
+  }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Goals</title>
+
+            <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="css/task.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a href="./index.html" class="navbar-brand" ><img src="./image/logo1.PNG" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+    <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class=" collapse navbar-collapse " id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+      <a class="nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./our-coaches.html">Our Coaches</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="food.html">Diet Check</a>
+          
+          </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+    
+              </li>
+    
+    
+    </ul>
+    </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    </nav>
+
+<div class="shadow-lg p-3 mb-5 rounded main-div ">
+<div class="shadow p-3 mb-5 rounded pry-div ">
+<h1 class ="text-center padding ">Set Your Goals!</h1>
+</div>
+<div class="card-deck main-card">
+<!-- Cards -->
+<div class="card text-center shadow p-3 mb-5 rounded card-one">
+                 <img class="card-img-top" src="./image/goals.png" alt="Card image cap">
+                 <div class="card-body">
+                     <h5 class="card-title">Work on your Goals</h5>
+               <p class="card-text">Goals are a  step towards your improvement and overall success in anything , it works the same with fitness and health. Setting one helps you keep track of your progress and makes sure you dont't miss out on them!</p>
+                     
+         <button type="button" class="btn " style="background-color: #ffe05d; " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" >Set New Goal </button>
+                    
+                    </div>
+                      
+
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="shadow p-3 mb-5 bg-white rounded" > -->
+                    <div class="card text-center shadow p-3 mb-5 rounded card-two">
+                      <img class="card-img-top img-two" src="./image/tracking.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Track your progress!</h5>
+                        <p class="card-text">Keep track of your progress and check how much time left to complete it.</p>
+
+                        <button type="button" class="btn " style="background-color: #ffe05d;">Check on going Task</button>
+                      </div>
+                  
+                    </div>
+                    <!-- </div> -->
+                <!-- <div class="shadow p-3 mb-5 bg-white rounded" > -->
+                    
+                    <div class="card  text-center shadow p-3 mb-5 rounded card-three">
+                      <img class="card-img-top" src="./image/taskcomp.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Check the tasks you have completed already!</h5>
+                        
+                        <p class="card-text">This section allow you to check all the tasks that you have already compeleted. </p>
+                    
+                        <button type="button" class="btn " style="background-color: #ffe05d; ">Completed Task</button>  
+                    </div>
+                     
+                    </div>
+                    <!-- </div> -->
+                  </div>
+        
+               </div>
+            
+    
+
+
+               <!-- code for model -->
+
+             
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header  " style="background-color: #d6e0f0;">
+        <h5 class="modal-title text-center" id="exampleModalLabel" style="color:#191e20" >Set New Goal <i class="fa fa-smile-o" aria-hidden="true" style ="color:#191e20;"></i></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style ="color:#191e20;" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Select Goal:</label>
+
+            <select id="cars" name="cars" style="width:100%">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Due Date:</label>
+            <input type="date" id="birthday" name="birthday" style="width:100%" >
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn " style="background-color: #ffe05d; ">Set Goal</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url('/image/a.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  navbar {
+    padding: 0.8rem;
+  }
+  .navbar li {
+    padding-right: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.1em !important;
+  }
+  
+  .div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background-image: url('./image/a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nav-link {
+    font-size: 1.1em !important;
+  }
+
+  .award{
+    opacity: 0.7;
+    margin:auto;
+    padding-top: 6%;
+    width:50%;
+  }
+  .heading{
+    background-color: red;
+    color:white;
+
+  }
